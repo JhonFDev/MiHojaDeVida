@@ -1,26 +1,85 @@
 <!DOCTYPE html>
-<html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<html lang="es-en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Mi Hoja de Vida</title>
-</head>
-<body>
-    <div>
-        <h1>Informacion General</h1>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <div class="profilephoto">
+          <img src="assets/VAN.png" alt="photoprofile" class="imgprofile" />
+          <h1>JOHN JAIRO FLOREZ</h1>
+          <h2>INGENIERO DE SISTEMAS</h2>
+        </div>
+      </header>
+      <div class="containerinfo">
+        <div class="infopersonal">
+          <h2>Informacion General</h2>
 
-        <h2>Nombre y Apellido</h2>
-        <p>John Jairo Suarez Florez</p>
-        <h2>Email</h2>
-        <p>jhonfdeveloper@gmail.com</p>
-        <h2>Telefono</h2>
-        <p>3224727597</p>
-        <h2>Ubicacion Actual</h2>
-        <p>Ocaña, norte de santaner</p>
-        <h3>Link a Github</h3>
-        <a href="https://github.com/JhonFDev"><p>https://github.com/JhonFDev</p></a>
-        <h3>Link a Linkedin</h3>
-        <p>Muy pronto</p>
+          <h3>Nombre y Apellido</h3>
+          <p>John Jairo Suarez Florez</p>
+
+          <h3>Email</h3>
+          <p>jhonfdeveloper@gmail.com</p>
+
+          <h3>Telefono</h3>
+          <p>3224727597</p>
+
+          <h3>Ubicacion Actual</h3>
+          <p>Ocaña, norte de santaner</p>
+
+          <h3>Link a Github</h3>
+          <a href="https://github.com/JhonFDev"
+            ><p>https://github.com/JhonFDev</p></a
+          >
+
+          <h3>Link a Linkedin</h3>
+          <p>Muy pronto</p><br><br>
+
+          <div class="experience">
+            <ul>
+              <li style="font-size: 50px;">
+                <h2>Experiencia</h2>
+              </li>
+            </ul>
+            <ol>
+              <li>Tecnico en sistemas</li>
+              <li>Barman</li>
+              <li>Auxiliar de archivo</li>
+              <li>auxiliar jefe de venta</li>
+              <li>Jefe pruebas de estado icfes</li>
+            </ol>
+          </div>
+        </div>
+
+        <div class="infohabilitiesandinterest">
+          <h2>Habilidades</h2>
+            <div class="containerprogress">
+
+                <h2>React Native</h2>
+                <div class="progress less" style="--i:85;--clr:#43f94a">
+                    <h3>85<span>%</span></h3>
+                </div>
+                
+                <h2>Ingles</h2>
+                <div class="progress less" style="--i:80;--clr:orange">
+                    <h3>80<span>%</span></h3>
+                </div>
+                
+                <h2>Matematicas</h2>
+                <div class="progress less" style="--i:65;--clr:cyan">
+                    <h3>65<span>%</span></h3>
+                </div>
+            </div>
+
+   
+
+          
+        </div>
+      </div>
     </div>
-</body>
+  </body>
 </html>
