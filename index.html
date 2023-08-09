@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Mi Hoja de Vida</title>
-    <!-- <link rel="stylesheet" href="style.css" /> -->
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
     <div class="container">
@@ -42,10 +42,12 @@
 
           <div class="experience">
             <ul>
-              <li style="font-size: 30px">
+              <li>
                 <h2>Experiencia</h2>
               </li>
             </ul>
+          </div>
+          <div>
             <ol>
               <li>Tecnico en sistemas</li>
               <li>Barman</li>
@@ -84,11 +86,44 @@
           </div>
           <div class="containerinterest">
             <ol>
-              <li>dkhsgdygf</li>
+              <li>Backend</li>
+              <li>Frontend</li>
+              <li>ReactNative</li>
+              <li>next.js</li>
+              <li>node.js</li>
+              <li>React.js</li>
+              <li>Scrum</li>
             </ol>
           </div>
         </div>
       </div>
+
+      <!-- comentarios -->
+      <footer>
+        <div class="commentsandemail">
+          <div class="containercomments">
+            <h2>Caja de comentarios</h2>
+            <p>
+              Te interesa mi hoja de vida, no dudes en dejarme un comentario y
+              contactame
+            </p>
+            <textarea
+              name="areadecomentarios"
+              id="txtareacommemts"
+              cols="50"
+              rows="10"
+              placeholder="Quieres dejar un comentario?"
+            ></textarea>
+          </div>
+
+          <div class="containeremailandcontact">
+            <h2>Contactame</h2>
+            <!-- <p>Te interesa mi hoja de vida, no dudes en <br> contactarme</p> -->
+            <input type="email" placeholder="Ingresa tu correo" />
+            <button type="button">Enviar y Contactar</button>
+          </div>
+        </div>
+      </footer>
     </div>
   </body>
 </html>

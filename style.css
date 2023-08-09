@@ -20,6 +20,11 @@ header {
 img {
   max-width: 100%;
 }
+ol{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
 .container {
   margin-top: 50px;
   margin-bottom: 50px;
@@ -32,7 +37,7 @@ img {
   flex-direction: column;
   gap: 20px;
   font-size: 25px;
-  width: 600px;
+  width: 570px;
   height: fit-content;
   align-items: center;
 }
@@ -118,4 +123,70 @@ img {
 .interest{
   margin-top: 170px;  
   font-size: 30px;
+  margin-right: 21px;
+}
+.containerinterest{
+  margin-right: 70px;
+}
+.experience{
+  font-size: 30px;
+}
+.commentsandemail{  
+  width: 1200px;
+  display: flex;
+  padding-top: 50px;
+}
+.containercomments{
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  font-size: 25px;
+  width: 600px;
+  height: fit-content;
+  align-items: center;
+}
+.containeremailandcontact{
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  font-size: 25px;
+  width: 600px;
+  height: fit-content;
+  align-items: center;
+}
+#txtareacommemts{
+  width: 500px;
+  text-align:justify;  
+  font-size: 18px;
+  padding: 15px;
+}
+input{
+  border: 5px solid;
+  padding: 20px;
+  margin: 30px;
+  border-radius: 30px;
+  font-size: 20px;
+  border-color: #96005c;
+  margin-top: 60px;
+}
+button{
+  padding: 15px;
+  margin: 20px;
+  font-size: 18px;
+  font-weight: bold;
+  border-radius: 20px;
+  color:white;
+  background-color: black;
+  border-color: #96005c;  
+}
+textarea::placeholder{
+  padding-top: 65px;
+  text-align: center;
+}
+button:hover{
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 20);
+  transition: all 2s;
+  transform: scale(1.2);
 }
